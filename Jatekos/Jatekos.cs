@@ -10,7 +10,9 @@ namespace Jatekosok
         public string Nev { get; set; }
         public int Elet
         {
-            get;
+            get {
+                return elet;
+            }
             set {
                 if (value < 0) elet = 0;
                 else if (value > 100) elet = 100;
