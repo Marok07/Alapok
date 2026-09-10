@@ -1,18 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.InteropServices.Java;
+using Autok;
 
-class Auto
-{
-    public string Marka;
-    public int Eletkor;
-
-    public Auto(string marka, int eletkor)
-    {
-        Marka = marka;
-        Eletkor = eletkor;
-    }
-}
 
 class Program
 {
